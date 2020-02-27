@@ -1,0 +1,7 @@
+FirstName = input("What is your First Name : ")
+LastName = input("What is your Last Name : ")
+Location = input("Where are you located : ")
+BirthYear = input("What year where you born? : ")
+BirthYear = int(BirthYear)
+Age = (2020 - BirthYear)
+print(FirstName, LastName, "is located in", Location, "and is", Age, "years old.")
